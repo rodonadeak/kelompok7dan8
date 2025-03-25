@@ -72,7 +72,7 @@ function hitungKofaktor() {
 }
 
 function tutupHasil() {
-    window.location.href = "kofaktor.html";
+    window.location.href = "index.html";
 }
 
 buatMatriks();
