@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matriks 4x4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blur-bg" id="blurBg"></div>
+    <div class="container" id="mainContainer">
+        <h2>Matriks 4x4 Kofaktor</h2>
+        <table>
+            <tbody id="matrix"></tbody>
+        </table>
+        <p>  </p>
+        <p>  </p>
+        <button onclick="hitungKofaktor()">Hitung</button>
+        <h4>Kelompok 7 & 8<br>PSIK 24C</h4>
+    </div>
+    
+    <div class="containerhasil" id="containerHasil">
+        <h2>Hasil Perhitungan</h2>
+        <div class="matrix-container" id="minorMatrices"></div>
+        <button onclick="tutupHasil()">Tutup</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
